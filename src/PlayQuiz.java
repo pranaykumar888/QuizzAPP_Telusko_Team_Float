@@ -22,7 +22,7 @@ public class PlayQuiz  extends QuestionService {
             System.out.println("Player -->  Enter 2.");
             Scanner input = new Scanner(System.in);
             String role ;
-            role = input.next();
+            
             //todo: validate role input
             if ("1".equalsIgnoreCase(role)) {
                 //todo : implement code to create the quiz and start the quiz by trainer.
